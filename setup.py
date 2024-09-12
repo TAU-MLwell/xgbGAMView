@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
   name = 'xgbGAMView',     
   packages = ['xgbGAMView'],   
-  version = '0.1',      
+  version = '0.11',      
   license='MIT',        
   description = 'Generalized Additive Models (GAMs) trained using xgboost with visualization and smoothing',   
   long_description=long_description,
