@@ -12,7 +12,7 @@ setup(
   license='MIT',        
   description = 'Generalized Additive Models (GAMs) trained using xgboost with visualization and smoothing',   
   long_description=long_description,
-  long_description_content_type='text/markdown'
+  long_description_content_type='text/markdown',
   author = 'MLWell lab, Tel-Aviv University', 
   author_email= 'rgb@tauex.tau.ac.il',
   url = 'https://github.com/TAU-MLwell/xgbGAMView',  
