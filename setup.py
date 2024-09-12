@@ -6,32 +6,22 @@ setup(
   license='MIT',        
   description = 'Generalized Additive Models (GAMs) trained using xgboost with visualization and smoothing',   
   author = 'MLWell lab, Tel-Aviv University', 
-  author_email = 'rgb@tauex.tau.ac.il',  
+  author_email= 'rgb@tauex.tau.ac.il',
   url = 'https://github.com/TAU-MLwell/xgbGAMView',  
   download_url = 'https://github.com/TAU-MLwell/xgbGAMView/archive/refs/tags/0.1.tar.gz',   
   keywords = ['Generalized Additive Model', 'GAM', 'explainable AI', "xAI"],  
-  install_requires=[            # I get to this in a second
+  install_requires=[            
         'numpy',
         'pandas',
-        'matplotlib.pyplot',
+        'matplotlib',
         'xgboost',
-        'json',
-        'os',
-        'matplotlib.colors',
-        'sklearn.neighbors',
-        'sklearn.base',
+        'sklearn',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',    
 
     'Intended Audience :: Developers',    
     'Topic :: Software Development :: Build Tools',
-
-    'License :: OSI Approved :: MIT License',   
-
-    'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.8',
-    'Programming Language :: Python :: 3.9',
-    'Programming Language :: Python :: 3.10',
-  ],
+    'License :: OSI Approved :: MIT License'],
+  python_requires='>=3.8'
 )
